@@ -1,10 +1,9 @@
-
 import React, { useState, useEffect } from 'react';
-import { Header } from './components/Header';
-import { Hero } from './components/Hero';
-import { TableOfContents } from './components/TableOfContents';
-import { ContentSection } from './components/ContentSection';
-import { Footer } from './components/Footer';
+import { Header } from './components/Header.tsx';
+import { Hero } from './components/Hero.tsx';
+import { TableOfContents } from './components/TableOfContents.tsx';
+import { ContentSection } from './components/ContentSection.tsx';
+import { Footer } from './components/Footer.tsx';
 
 const SECTIONS = [
   { id: 'introduction', title: '1. Introduction' },
