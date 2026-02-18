@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 export const Header: React.FC = () => {
@@ -11,13 +10,9 @@ export const Header: React.FC = () => {
               JUKE<span className="text-blue-600">SOLUTIONS</span>
             </span>
           </div>
-          <nav className="hidden md:flex space-x-8">
-            <a href="http://www.jukesolutions.com" className="text-sm font-medium text-slate-500 hover:text-blue-600 transition-colors">Website</a>
-            <a href="#contact" className="text-sm font-medium text-slate-500 hover:text-blue-600 transition-colors">Support</a>
-            <a href="#rights" className="text-sm font-medium text-slate-500 hover:text-blue-600 transition-colors">Your Rights</a>
-          </nav>
+          {/* Navigation links removed as per request */}
           <div className="flex md:hidden">
-            {/* Mobile menu could go here if needed, keeping it simple for one page policy */}
+            {/* Mobile menu could go here if needed */}
           </div>
         </div>
       </div>
